@@ -1,3 +1,6 @@
 Arquivo B
 
-Adicionando modificação arquivo B
+Adicionando modificação arquivo B.
+
+
+Alterando arquivo B.txt. Alterado por Vinnicyus.
