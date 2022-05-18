@@ -1,3 +1,5 @@
 Arquivo B
 
 Adicionando modificação arquivo B
+
+Adicionando segunda modificação no arquivo B
