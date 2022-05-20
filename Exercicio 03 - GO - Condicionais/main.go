@@ -13,7 +13,6 @@ letras que ela contém.
 **/
 
 func doExercise1() {
-	fmt.Println("Digite a palavra: ")
 	word := "Brasil"
 
 	fmt.Printf("O tamanho da palavra \"%v\" é %d\n", word, len(word))
@@ -39,10 +38,11 @@ Dica: seu código deve ser capaz de imprimir pelo menos 3 mensagens diferentes.
 
 func doExercise2() {
 	idade := 30
+	empregado := true
 	tempoAtividadeEmMeses := 12
 	salario := 100000
 
-	if idade < 22 || tempoAtividadeEmMeses < 12 {
+	if !empregado || idade < 22 || tempoAtividadeEmMeses < 12 {
 		fmt.Println("Cliente não elegível para receber empréstimo.")
 	} else if salario <= 100000 {
 		fmt.Println("Cliente elegível para empréstimo com taxa de juros.")
@@ -115,13 +115,13 @@ func doExercise4() {
 
 	// Saiba quantos de seus funcionários têm mais de 21 anos.
 	employeesOver21 := 0
-	for _, value := range employees {
-		if value > 21 {
+	for _, age := range employees {
+		if age > 21 {
 			employeesOver21++
 		}
 	}
 
-	fmt.Printf("O número de funcionários acima de 21 anos: %v\n", employeesOver21)
+	fmt.Printf("Número de funcionários acima de 21 anos: %v\n", employeesOver21)
 
 	// Adicione um novo funcionário à lista, chamado Federico, que tem 25 anos.
 	employees["Frederico"] = 25
