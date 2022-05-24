@@ -1,0 +1,3 @@
+ID	Preco	Quantidade	
+1	14.58	5	
+2	8.99	2	
