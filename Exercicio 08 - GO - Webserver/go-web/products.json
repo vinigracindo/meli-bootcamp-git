@@ -1,0 +1,44 @@
+{
+"products": [
+    {
+        "id": 1,
+        "name": "Scissor",
+        "color": "black",
+        "price": 4.99,
+        "stock": 100,
+        "code": "SI001",
+        "published": true,
+        "created_at": "2022-01-10"
+    },
+    {
+        "id": 2,
+        "name": "Glue",
+        "color": "white",
+        "price": 2.89,
+        "stock": 300,
+        "code": "SI002",
+        "published": true,
+        "created_at": "2022-03-10"
+    },
+    {
+        "id": 3,
+        "name": "Stapler",
+        "color": "blue",
+        "price": 13.99,
+        "stock": 50,
+        "code": "SI003",
+        "published": true,
+        "created_at": "2022-03-10"
+    },
+    {
+        "id": 4,
+        "name": "Backpack",
+        "color": "black",
+        "price": 104.99,
+        "stock": 20,
+        "code": "SI004",
+        "published": true,
+        "created_at": "2022-04-15"
+    }
+]
+}
